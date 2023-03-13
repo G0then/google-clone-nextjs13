@@ -8,6 +8,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Google Clone Next Js 13</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Google clone created by Next js 13" />
+        <link href="/favicon.svg" rel="icon" />
+      </head>
+
+
       <body>{children}</body>
     </html>
   )
