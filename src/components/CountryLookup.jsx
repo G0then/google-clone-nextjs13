@@ -17,7 +17,7 @@ export default function CountryLookup() {
       }
     )
       .then((response) => response.json())
-      .then((data) => setCountry(data))
+      .then((data) => setCountry(data.country))
       .catch((err) => {
         setCountry("Error Fetching");
       });
